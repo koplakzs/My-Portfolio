@@ -2,7 +2,7 @@ import "./App.css";
 import Home from "./components/Home";
 import Deskripsi from "./components/Deskripsi";
 import Skill from "./components/Skill";
-import Service from "./components/Service";
+import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
@@ -17,8 +17,8 @@ function App() {
       <div id="skillApp">
         <Skill />
       </div>
-      <div id="serviceApp">
-        <Service />
+      <div id="portfolioApp">
+        <Portfolio />
       </div>
       <div id="footerApp">
         <Footer />
