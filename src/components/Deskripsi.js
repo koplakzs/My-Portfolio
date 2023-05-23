@@ -1,4 +1,4 @@
-import pic2 from "../assets/pict1.jpg";
+import myPict from "../assets/myPict.jpg";
 // import file from "../assets/"
 const Deskripsi = () => {
   return (
@@ -6,7 +6,7 @@ const Deskripsi = () => {
       <div className="intro">
         <div className="col-sm-4 text-center">
           <img
-            src={pic2}
+            src={myPict}
             alt="Ridho Alfandi"
             style={{ borderRadius: "50px" }}
           />
@@ -84,7 +84,7 @@ const Deskripsi = () => {
             <button className="btn btn-success">
               <a
                 style={{ textDecoration: "none", color: "#ffffff" }}
-                href="#skillApp"
+                href="#skill"
               >
                 My Skill
               </a>

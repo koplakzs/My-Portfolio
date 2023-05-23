@@ -2,10 +2,10 @@ import githubImg from "../assets/Github.png";
 
 const PortfolioCard = ({ data }) => {
   return data.map((item) => (
-    <div key={item.id} class="card" style={{ width: "16rem" }}>
+    <div key={item.id} class="card">
       <img src={item.image} class="card-img-top" alt={item.alt} />
       <div class="card-body position-relative p-3">
-        <h5 class="card-title"> {item.title} </h5>
+        <h5 class="card-title fw-bold"> {item.title} </h5>
         <p class="card-text mb-5">{item.text}</p>
         <a
           href={item.link}
@@ -57,12 +57,14 @@ const Portfolio = () => {
   ];
 
   return (
-    <div className="portfolio">
-      <h3 className="text-center" style={{ fontWeight: "bold" }}>
-        My Portfolio
-      </h3>
-      <div className="my-portfolio d-flex justify-content-center flex-wrap gap-5">
-        <PortfolioCard data={portfolio} />
+    <div className="portfolio d-flex align-items-center justify-content-center">
+      <div className="my-portfolio">
+        <h3 className="text-center fw-bold mb-5" style={{ color: "#686868" }}>
+          My Portfolio
+        </h3>
+        <div className="cards  d-flex justify-content-center flex-wrap">
+          <PortfolioCard data={portfolio} />
+        </div>
       </div>
     </div>
   );

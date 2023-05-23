@@ -3,13 +3,6 @@
   padding: 0 ;
   box-sizing: border-box;
 }
-
-
-
-#footerApp {
-  background-color: #000000;
-  padding: 10px 10px;
-}
 .home, .deskripsi, .skill, .portfolio {
   height: 100vh;
   align-items: center;
@@ -23,7 +16,7 @@
   width: 80vh;
 }
 .home p{
-  text-align: justify;
+  text-align: center;
   font-size: 11pt;
 }
  .deskripsi{
@@ -65,10 +58,26 @@
 
 .portfolio {
   background-color: #fafafa;
+  height: max-content;
+  padding: 100px 15px;
+  
+}
+.portfolio .card {
+  width: 13rem;
+  margin: 10px 10px;
+}
+
+.portfolio .my-portfolio .cards .card img {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.portfolio .my-portfolio .cards .card p {
+  font-size: 10pt;
 }
 
 .footer i {
-  font-size: 20pt;
+  font-size: 16pt;
 }
 .footer p {
   color: #ffffff;
@@ -118,18 +127,28 @@
   .skill .cards img {
     width: 120px;
   }
-
-  .portfolio .my-portfolio img {
+  .portfolio {
+    padding: 100px 50px;
+    
+  }
+  .portfolio .my-portfolio h3 {
+    font-size: 30pt;
+    margin-bottom: 100px;
+  }
+  .portfolio .my-portfolio .card {
+    margin: 20px 20px;
+    width: 16rem;
+  }
+  .portfolio .my-portfolio .cards .card img {
     width: 150px;
     display: block;
     margin: 0 auto;
-
+  }
+  .portfolio .my-portfolio .cards .card p {
+    font-size: 12pt;
   }
   .footer i {
-    font-size: 25pt;
-  }
-  .footer p {
-    font-size: 12pt;
+    font-size: 20pt;
   }
 }
 

@@ -18,15 +18,14 @@ const Home = () => {
             />
           </span>{" "}
         </h3>
-
         <p>
           Studying at a University in Riau with a major in informatics made me
           pursue this field, especially in the field of web developer and mobile
           developer.
         </p>
-        <button className="mt-5 btn btn-success">
+        <button className="mt-3 btn btn-success">
           <a
-            href="#deskripsiApp"
+            href="#deskripsi"
             style={{ textDecoration: "none", color: "#ffffff" }}
           >
             About me

@@ -8,19 +8,19 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div>
-      <div id="homeApp">
+      <div id="home">
         <Home />
       </div>
-      <div id="deskripsiApp">
+      <div id="deskripsi">
         <Deskripsi />
       </div>
-      <div id="skillApp">
+      <div id="skill">
         <Skill />
       </div>
-      <div id="portfolioApp">
+      <div>
         <Portfolio />
       </div>
-      <div id="footerApp">
+      <div>
         <Footer />
       </div>
     </div>
