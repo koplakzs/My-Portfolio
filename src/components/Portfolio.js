@@ -13,7 +13,7 @@ const PortfolioCard = ({ data }) => {
           target="_blank"
           rel="noreferrer"
         >
-          Repository
+          {item.type}
         </a>
       </div>
     </div>
@@ -29,6 +29,7 @@ const Portfolio = () => {
       title: "Temperature Conversion App",
       text: "Create a logic concept for temperature conversion. Create a conversion and implementation process with the flutter framework",
       link: "https://github.com/koplakzs/conversi_temperature-flutter.git",
+      type: "Repository",
     },
     {
       id: 2,
@@ -37,6 +38,7 @@ const Portfolio = () => {
       title: "Meme App",
       text: "Create a logic concept to cosume the API. Designing UI/UX for API consumption purposes",
       link: "https://github.com/koplakzs/Meme-App-Fluter.git",
+      type: "Repository",
     },
     {
       id: 3,
@@ -45,6 +47,7 @@ const Portfolio = () => {
       title: "Calculator App",
       text: "Create a logic calculator development. Implementation of logic and processes using the flutter framework. Design UI/UX Calculator",
       link: "https://github.com/koplakzs/Simple-Calculator-Flutter.git",
+      type: "Repository",
     },
     {
       id: 4,
@@ -53,6 +56,16 @@ const Portfolio = () => {
       title: "Suit App",
       text: "Create a logic Suit App development. Made two system modes namely hard mode and easy mode with different winning presentations",
       link: "https://github.com/koplakzs/Suit-Game-Flutter.git",
+      type: "Repository",
+    },
+    {
+      id: 4,
+      image: githubImg,
+      alt: "Github Image",
+      title: "Weather Website",
+      text: "create a UI/UX for weather search in an area. Create logic to consume the weather API and make it work to search for weather.",
+      link: "https://wheater-app-puce-tau.vercel.app",
+      type: "Demo",
     },
   ];
 

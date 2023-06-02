@@ -22,7 +22,7 @@ const Deskripsi = () => {
             Experienced in development for at least 1 year. The more difficult
             the customer's request, the more I can develop myself
           </p>
-          <div className="bio d-flex flex-wrap justify-content-between">
+          <div className="bio d-flex flex-wrap justify-content-between gap-2">
             <div className="biodate">
               <h5>Name</h5>
               <p>Ridho Alfandi</p>
@@ -36,12 +36,8 @@ const Deskripsi = () => {
               <p>Man</p>
             </div>
             <div className="biodate">
-              <h5>Address</h5>
-              <p>Damai Street, Pekanbaru City </p>
-            </div>
-            <div className="biodate ">
-              <h5>Religion</h5>
-              <p>Islam</p>
+              <h5>City</h5>
+              <p>Pekanbaru City </p>
             </div>
           </div>
           <div className="contact d-flex justify-content-start">

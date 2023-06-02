@@ -10,7 +10,7 @@ import mysqlImg from "../assets/mysql.png";
 
 const Card = ({ data }) => {
   return data.map((item) => (
-    <div key={item.id} className="card">
+    <div key={item.id} className="col-4 col-sm-3 col-md-2">
       <img src={item.image} alt={item.alt} />
     </div>
   ));
@@ -33,7 +33,7 @@ const Skill = () => {
     <div className="skill container d-flex align-items-center justify-content-center">
       <div className="my-skill text-center">
         <h3 style={{ fontWeight: "bold", color: "#a8a8a8" }}>My Skill</h3>
-        <div className="cards d-flex flex-wrap justify-content-evenly gap-4">
+        <div className="cards row justify-content-evenly gap-2">
           <Card data={image} />
         </div>
       </div>

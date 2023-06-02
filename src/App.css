@@ -3,13 +3,17 @@
   padding: 0 ;
   box-sizing: border-box;
 }
-.home, .deskripsi, .skill, .portfolio {
-  height: 100vh;
+/* .home, .deskripsi, .skill, .portfolio {
+  height: max-content;
   align-items: center;
   padding:0 10px ;
+} */
+
+.home {
+  height: 100vh;
 }
 .home h3 {
-  font-size: 20pt;
+  font-size: 18pt;
 }
 .home .intro {
   text-align: center;
@@ -20,29 +24,37 @@
   font-size: 11pt;
 }
  .deskripsi{
+  height: max-content;
   background-color: #fafafa;
   border-radius:20px 100px ;
-  padding: 0 20px;
+  padding: 40px 20px;
  }
 .deskripsi img {
-  width: 250px;
+  width: 150px;
   margin-bottom: 10px;
 }
 .deskripsi .my-deskripsi p{
   text-align: justify;
 }
-.deskripsi .my-deskripsi .biodate{
-  width: 200px;
+.deskripsi .my-deskripsi .biodate h5 {
+  font-size: 13pt;
+}
+.deskripsi .my-deskripsi .biodate p {
+  font-size: 10pt;
 }
 
 .deskripsi .my-deskripsi .contact i{
-  font-size: 23pt;
+  font-size: 18pt;
   margin: 20px 20px 30px 0;
   cursor: pointer;
 }
 .deskripsi button{
   
   margin:20px 20px 0;
+}
+
+.skill {
+  padding: 40px 20px;
 }
 
 .skill h3{
@@ -86,6 +98,11 @@
   font-size: 10pt;
 }
 @media screen and (min-width : 576px) {
+  /* .deskripsi, .skill, .portfolio {
+    height: 100vh;
+    align-items: center;
+    padding:0 10px ;
+  } */
 
   #footerApp {
     padding: 15px 0;
@@ -115,7 +132,7 @@
     font-style: italic;
   }
   .deskripsi .my-deskripsi p{
-    font-size: 13pt;
+    font-size: 11pt;
   }
   .deskripsi .my-deskripsi .bio {
     margin: 30px 0;
@@ -137,15 +154,15 @@
   }
   .portfolio .my-portfolio .card {
     margin: 20px 20px;
-    width: 16rem;
+    width: 14rem;
   }
   .portfolio .my-portfolio .cards .card img {
-    width: 150px;
+    width: 120px;
     display: block;
     margin: 0 auto;
   }
   .portfolio .my-portfolio .cards .card p {
-    font-size: 12pt;
+    font-size: 10pt;
   }
   .footer i {
     font-size: 20pt;
