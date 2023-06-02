@@ -98,11 +98,7 @@
   font-size: 10pt;
 }
 @media screen and (min-width : 576px) {
-  /* .deskripsi, .skill, .portfolio {
-    height: 100vh;
-    align-items: center;
-    padding:0 10px ;
-  } */
+
 
   #footerApp {
     padding: 15px 0;
@@ -169,14 +165,16 @@
   }
 }
 
-@media screen and (min-width : 992px) {
+@media screen and (min-width : 768px) {
+  .deskripsi, .skill, .portfolio {
+    height: 100vh;
+    align-items: center;
+    padding:0 10px ;
+  }
   .home img {
     width: 300px;
   }
   .deskripsi img {
     width: 300px;
   }
-  /* .deskripsi .bio .biodate{
-    width:250px;
-  } */
 }
