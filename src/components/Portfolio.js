@@ -63,9 +63,18 @@ const Portfolio = () => {
       image: githubImg,
       alt: "Github Image",
       title: "Weather Website",
-      text: "create a UI/UX for weather search in an area. Create logic to consume the weather API and make it work to search for weather.",
+      text: "Create a UI/UX for weather search in an area. Create logic to consume the weather API and make it work to search for weather.",
       link: "https://wheater-app-puce-tau.vercel.app",
       type: "Demo",
+    },
+    {
+      id: 5,
+      image: githubImg,
+      alt: "Github Image",
+      title: "List Movie",
+      text: "Create a simple consume api to take movie data and display it in an attractive ui/ux design",
+      link: "https://github.com/koplakzs/Lemper-Movie-React.git",
+      type: "Repository",
     },
   ];
 
